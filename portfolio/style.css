@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(255,222,180);
+    background: linear-gradient(90deg, rgba(255,222,180,1) 0%, rgba(251,213,247,1) 100%);
+}
+
+nav{
+    margin: 10px;
+    /* background-color: rgb(255, 192, 192); */
+    height: 80px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo img{
+    height: 6em;
+    margin-left: 0;
+    /* background-color: blueviolet; */
+}
